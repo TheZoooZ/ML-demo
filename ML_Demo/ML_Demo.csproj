@@ -22,18 +22,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="iris-data.Designer.cs">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>iris-data.txt</DependentUpon>
-    </Compile>
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Update="iris-data.txt">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>iris-data.Designer.cs</LastGenOutput>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <None Update="Data\taxi-fare-test.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\taxi-fare-train.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="sufler.xsd">
       <Generator>MSDataSetGenerator</Generator>
